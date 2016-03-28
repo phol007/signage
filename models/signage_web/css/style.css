@@ -1,0 +1,158 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+	background: green;
+}
+#header{
+	height: 50px;
+	background: #f2d618;
+}
+#navmenu{
+	width: 15%;
+	float: left;
+	border-bottom: solid 2px green;
+	text-align: center;
+	background: green;
+}
+	.pic{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: auto;
+		margin-top: 4%;
+		margin-bottom: 3%;
+	}
+	.time{
+		width: 90%;
+		text-align: center;
+		padding: 0;
+		margin: auto;
+		margin-top: 4%;
+		border: solid 2px #fff;
+		border-radius: 10px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+		background: #d2ff52; /* Old browsers */
+		background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+
+	}
+#picslide{
+	width: 85%;
+	float: left;
+	border: solid 5px green;
+	background: green;
+}
+	.item,.active{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+	.carousel,.slide,.carousel-inner{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+	#myCarousel{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+#footer{
+	clear: both;
+	width: 100%;
+	border: solid 2px red;
+	font-size: 18px;
+	background: red;
+	color: #fff;
+}	
+
+
+.navbar{background: #0d319a;
+		margin-bottom: 0;
+		}
+		.nav a{color: #fff; border: 0; margin-bottom: 0;}
+		.container-fluid{ border-bottom: 8px #edb213 solid; margin-bottom: 0;}
+
+.slider {
+	width:600px;
+	margin:20px auto;
+	background:white;	
+	text-align:center;
+}
+
+
+/*========================================================================================*/
+.clock {
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  margin-top: 2%;
+  color:#145fb3;
+}
+
+#Date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  text-align:center;
+  text-shadow:0 0 5px #00c6ff;
+}
+
+ul {
+  width:100%;
+  margin:0 auto;
+  padding:0px;
+  list-style:none;
+  text-align:center;
+}
+
+ul li {
+  display:inline;
+  font-size:2em;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow:0 0 5px #00c6ff;
+}
+
+#point {
+  position:relative;
+  -moz-animation:mymove 1s ease infinite;
+  -webkit-animation:mymove 1s ease infinite;
+  padding-left:10px; padding-right:10px;
+}
+
+.content{
+	margin: 0;
+	padding: 5%;
+	padding-top: 2%;
+}
+.col-xs-6,.col-sm-3{ margin: 0; text-align: right; padding-bottom: 2%; }
+.delete{
+	position: absolute;
+	margin-left: 82%;
+	margin-top: 37%;
+	background: #fff;
+	border-radius: 6px;
+}
+h4{
+	color: #fff;
+}
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }    
+}
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }    
+}
+
+/*================================================================================================================*/
